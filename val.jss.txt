@@ -1,0 +1,12 @@
+
+<script>
+function val1() 
+{
+    var inpObj = document.getElementById("id1");
+    if (inpObj.checkValidity() == false) {
+        document.getElementById("demo").innerHTML = "INVALID USERNAME/PASSWORD";
+    } else {
+        document.getElementById("demo").innerHTML = "VALID DETAILS";
+    } 
+} 
+</script>
